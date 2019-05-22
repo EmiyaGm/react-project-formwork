@@ -1,0 +1,110 @@
+.pagination{
+  text-align: right;
+  padding-top: 29px;
+}
+
+.tableArea{
+  padding-top: 29px;
+  overflow-y: auto;
+}
+
+.searchIcon{
+  width: 14px;
+  height: 14px;
+}
+
+.addIcon{
+  width: 14px;
+  height: 14px;
+  margin-right: 13px;
+}
+
+.assertIcon{
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.withdrawIcon{
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.rightButton{
+  float: right;
+}
+
+:global(.ant-input-suffix){
+  display: none
+}
+
+:global(.ant-progress-inner){
+  background: #C0E4FF;
+  border-radius: 0px;
+}
+
+:global(.ant-radio-button-wrapper){
+  border-radius: 30px !important;
+    margin-right: 35px;
+    border-left: 1px solid #d9d9d9;
+    box-shadow: none;
+}
+
+:global(.ant-radio-button-wrapper-checked){
+  border-color: #1890ff
+}
+
+:global(.ant-radio-button-wrapper:not(:first-child)::before){
+  display: none;
+}
+
+:global(.ant-calendar-picker-icon){
+  left: 12px;
+}
+
+:global(.ant-radio-button-wrapper) {
+  border: none;
+  border-left: none;
+  color:#999999;
+  margin-right: 20px;
+}
+
+.filterBar {
+  margin-bottom: 16px !important;
+}
+
+:global(.ant-radio-button-wrapper-checked:hover) {
+  box-shadow: none;
+}
+
+:global(.ant-radio-button-wrapper:first-child) {
+  border-left: none;
+}
+
+:global(.ant-radio-button-wrapper-checked) {
+  border: 1px  solid !important;
+  color: #1890ff !important;
+  outline: none !important;
+}
+
+:global(.ant-modal) {
+  top: 15vh;
+}
+
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
